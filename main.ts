@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // that someone could send to call in sick — the funniest excuse
 // in one breath, and nothing else.
 const ENTRY =
-  "Can't make it in today — my car started itself, drove to the beach, and texted me a photo of the sunset.";
+  "Can't come in today — my toddler changed all my passwords and now I can't prove to my own laptop that I even work here.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
